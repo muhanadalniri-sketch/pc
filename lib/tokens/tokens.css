@@ -1,0 +1,17 @@
+:root{
+  --bg:#ffffff; --surface:#f9fafb; --text:#0f172a;
+  --oo-start:#0B5ED7; --oo-end:#020024;
+  --nm-start:#D70B21; --nm-end:#4A0000;
+  --radius-lg:16px; --radius-md:12px; --radius-sm:8px;
+  --shadow-outer:0 10px 30px rgba(0,0,0,.08);
+  --shadow-inner:inset 0 2px 6px rgba(0,0,0,.25), inset 0 -2px 8px rgba(255,255,255,.5);
+  --motion-fast:120ms; --motion-normal:220ms; --motion-slow:400ms;
+}
+.theme-oman-oil{
+  --brand-start: var(--oo-start);
+  --brand-end: var(--oo-end);
+}
+.theme-nama{
+  --brand-start: var(--nm-start);
+  --brand-end: var(--nm-end);
+}
